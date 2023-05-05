@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:gray;
+}
+h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.container{
+    width: 800px;
+    background-color:white;
+    margin-left: 800px;
+    margin-top: 200px;
+    border-radius: 10px;
+    height:800px;
+}
+img{
+    margin-left: 220px;
+    height: 300px;
+    padding-top: 20px;
+}
+#UA{
+    font-size: x-large;
+    font-weight: bold;
+}
