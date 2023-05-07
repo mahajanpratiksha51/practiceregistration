@@ -6,13 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <h3>Login Form</h3>
     <img src="assets/reg.png"><br>
     <label for="Username" id="UA">Username</label><br>
-    <input type="text">
+    <input type="text" id="UA" placeholder="Enter Username"required>
+    <label for="password" id="pass">Password</label><br>
+    <input type="password" id="pass" placeholder="Enter Password" required>
+    <button type="login" id="log">login</button>
+    
 </div>
+<div class="box1">
+    <button type="cancel" id="cancel">Cancel</button><br>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+</div>
+    
 </body>
 </html>

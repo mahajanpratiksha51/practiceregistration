@@ -9,21 +9,92 @@ h3{
     font-size: xx-large;
     font-weight: bolder;
     padding-top: 15px;
+    margin-left: 10px;
+    font-family: 'Secular One', sans-serif;
 }
 .container{
-    width: 800px;
+
+    width: 600px;
     background-color:white;
-    margin-left: 800px;
-    margin-top: 200px;
-    border-radius: 10px;
-    height:800px;
+    margin-left: 500px;
+    margin-top: 80px;
+    height: 600px;
+    
 }
-img{
-    margin-left: 220px;
-    height: 300px;
+    img{
+
+    
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
     padding-top: 20px;
-}
+    }
+
 #UA{
     font-size: x-large;
     font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Secular One', sans-serif;
+    
 }
+input{
+    width:570px;
+    margin-top: 5px;
+    padding:8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#pass{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+.container button{
+    width:570px;
+    margin-top: 20px;
+    padding:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+    font-size: x-large;
+    background-color: rgb(62, 156, 62);
+    color: white;
+    cursor: pointer;
+    
+}
+.box1{
+    background-color: #ccc;
+    width: 600px;
+    margin-left: 500px;
+    height: 100px;
+}
+.box1 button{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(204, 66, 66);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.box1 button:hover{
+    opacity: 0.8; 
+    background-color:rgb(60, 211, 60);
+}
+.container button:hover{
+    opacity: 0.8px;
+    background-color: rgb(178, 154, 201);
+
+}
+.psw{
+    margin-left: 450px;
+    font-size: larger;
+}
+  
